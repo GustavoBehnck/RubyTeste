@@ -8,24 +8,4 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
-puts "Criando as moedas....."
-
-Coin.create!(
-    description: "Bitcoin",
-    acronym: "BTC",
-    url_image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1200px-Bitcoin.svg.png"
-)
-
-Coin.create!(
-    description: "Ethereum",
-    acronym: "ETH",
-    url_image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ethereum-icon-purple.svg/512px-Ethereum-icon-purple.svg.png?20200227011040"
-)
-
-Coin.create!(
-    description: "Dash",
-    acronym: "DASH",
-    url_image: "https://cdn2.iconfinder.com/data/icons/bitcoin-73/128/dash-512.png"
-)
-
-puts "Moedas cadastradas com sucesso"
+#! Use o rails dev:setup (lib/tasks/dev.rake)
