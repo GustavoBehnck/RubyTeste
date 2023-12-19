@@ -8,6 +8,8 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
+puts "Criando as moedas....."
+
 Coin.create!(
     description: "Bitcoin",
     acronym: "BTC",
@@ -25,3 +27,5 @@ Coin.create!(
     acronym: "DASH",
     url_image: "https://cdn2.iconfinder.com/data/icons/bitcoin-73/128/dash-512.png"
 )
+
+puts "Moedas cadastradas com sucesso"
