@@ -1,6 +1,9 @@
-<h1>SEJA BEM VINDO!!!!!!!!!!!!!!!!!!!!</h1>
+<h2>SEJA BEM VINDO</h2>
 <p>
-   <strong> Data: </strong> <%= data_br(Date.today) %>
+   <strong> Data: </strong> <%= l(Date.today)%>
+</p>
+<p>
+    Idioma = <strong> <%= I18n.locale%> </strong>
 </p>
 
 <%= render 'menu' %>

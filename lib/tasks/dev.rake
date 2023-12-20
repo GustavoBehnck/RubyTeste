@@ -8,8 +8,8 @@ namespace :dev do
       end
       show_spinner('Criando Base', 'Criado com sucesso'){%x(rails db:create)}
       show_spinner('Migrando', 'Migração sucedida'){%x(rails db:migrate)}
-      %x(rails dev:add_coins)
       %x(rails dev:add_mining_types)
+      %x(rails dev:add_coins)
 
     else
       puts "Vc não está em desenvolvimento"
@@ -24,27 +24,32 @@ namespace :dev do
           {
               description: "Bitcoin",
               acronym: "BTC",
-              url_image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1200px-Bitcoin.svg.png"
+              url_image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1200px-Bitcoin.svg.png",
+              mining_type: MiningType.find_by(acronym: 'PoW')
           },
           {
               description: "Ethereum",
               acronym: "ETH",
-              url_image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ethereum-icon-purple.svg/512px-Ethereum-icon-purple.svg.png?20200227011040"
+              url_image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ethereum-icon-purple.svg/512px-Ethereum-icon-purple.svg.png?20200227011040",
+              mining_type: MiningType.all.sample
           },
           {
               description: "Dash",
               acronym: "DASH",
-              url_image: "https://cdn2.iconfinder.com/data/icons/bitcoin-73/128/dash-512.png"
+              url_image: "https://cdn2.iconfinder.com/data/icons/bitcoin-73/128/dash-512.png",
+              mining_type: MiningType.all.sample
           },
           {
               description: "Iota",
               acronym: "IOT",
-              url_image: "https://cdn-icons-png.flaticon.com/512/7829/7829646.png"
+              url_image: "https://cdn-icons-png.flaticon.com/512/7829/7829646.png",
+              mining_type: MiningType.all.sample
           },
           {
               description: "ZCash",
               acronym: "ZEC",
-              url_image: "https://cdn-icons-png.flaticon.com/512/1418/1418194.png"
+              url_image: "https://cdn-icons-png.flaticon.com/512/1418/1418194.png",
+              mining_type: MiningType.all.sample
           }
         ]
         coins_to_create.each do |coin|

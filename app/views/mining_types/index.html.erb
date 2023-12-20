@@ -2,13 +2,26 @@
 
 <h1>Mining types</h1>
 
-<div id="mining_types">
-  <% @mining_types.each do |mining_type| %>
-    <%= render mining_type %>
-    <p>
-      <%= link_to "Show this mining type", mining_type %>
-    </p>
-  <% end %>
-</div>
+<table>
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Acronym</th>
+      <th>Options</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @mining_types.each do |mining_type|%>
+      <tr>
+        <td><%= mining_type.description%></td>
+        <td><%= mining_type.acronym%></td>
+        <td> 
+          <%= link_to 'Mostrar', mining_type %>
+          <%= link_to 'Editar', edit_mining_type_path(mining_type) %>
+        </td>
+      </tr>
+    <%end%>
+  </tbody>
+</table>
 
 <%= link_to "New mining type", new_mining_type_path %>

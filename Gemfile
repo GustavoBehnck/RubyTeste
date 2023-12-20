@@ -47,6 +47,8 @@ gem "bootsnap", require: false
 # Require pry to use it on the console
 gem "pry-rails"
 
+gem "rails-i18n"
+
 gem 'tty-spinner'
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
