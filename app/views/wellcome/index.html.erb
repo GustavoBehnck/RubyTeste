@@ -3,7 +3,13 @@
    <strong> Data: </strong> <%= l(Date.today)%>
 </p>
 <p>
-    Idioma = <strong> <%= I18n.locale%> </strong>
+  <%= link_to 'Português', root_path(locale: 'pt-BR') %>
+</p>
+<p>
+  <%= link_to 'Inglish', root_path(locale: 'en') %>
+</p>
+<p>
+    Idioma = <strong> <%= t('actual_locale')%> </strong>
 </p>
 
 <%= render 'menu' %>
