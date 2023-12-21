@@ -11,7 +11,14 @@
   </head>
 
   <body>
-    <h1>CABEÇALHO - TESTE /views/layout/teste</h1>
+    <h5>CABEÇALHO - TESTE /views/layout/teste</h5>
+    <strong> <%= link_to 'Index', root_path %> </strong>
+    <p>
+      <%= link_to 'Português', root_path(locale: 'pt-BR') %>
+    </p>
+    <p>
+      <%= link_to 'Inglish', root_path(locale: 'en') %>
+    </p>
     <%= yield %> <%# todas as páginas que utilizam o application %>
   </body>
 </html>
