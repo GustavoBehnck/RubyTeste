@@ -7055,3 +7055,231 @@ Processing by WellcomeController#index as HTML
 Completed 200 OK in 698ms (Views: 690.0ms | ActiveRecord: 0.0ms | Allocations: 282278)
 
 
+Started GET "/" for ::1 at 2023-12-22 11:18:36 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WellcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/_menu.html.erb (Duration: 0.9ms | Allocations: 325)
+  Rendered wellcome/index.html.erb within layouts/application (Duration: 61.5ms | Allocations: 30406)
+  Rendered layout layouts/application.html.erb (Duration: 162.9ms | Allocations: 71139)
+Completed 200 OK in 172ms (Views: 166.8ms | ActiveRecord: 0.0ms | Allocations: 74754)
+
+
+Started GET "/" for ::1 at 2023-12-22 11:19:29 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WellcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/_menu.html.erb (Duration: 0.9ms | Allocations: 327)
+  Rendered wellcome/index.html.erb within layouts/application (Duration: 82.8ms | Allocations: 30740)
+  Rendered layout layouts/application.html.erb (Duration: 158.1ms | Allocations: 71674)
+Completed 200 OK in 169ms (Views: 162.9ms | ActiveRecord: 0.0ms | Allocations: 75280)
+
+
+Started GET "/" for ::1 at 2023-12-22 11:20:29 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WellcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/_menu.html.erb (Duration: 0.6ms | Allocations: 327)
+  Rendered wellcome/index.html.erb within layouts/application (Duration: 64.4ms | Allocations: 30725)
+  Rendered layout layouts/application.html.erb (Duration: 98.0ms | Allocations: 38391)
+Completed 500 Internal Server Error in 109ms (ActiveRecord: 0.0ms | Allocations: 41953)
+
+
+  
+ActionView::Template::Error (couldn't find file 'bootstrap' with type 'text/css'
+Checked in these paths: 
+  /home/gustavo/Desktop/teste ruby/RubyTeste/app/assets/config
+  /home/gustavo/Desktop/teste ruby/RubyTeste/app/assets/images
+  /home/gustavo/Desktop/teste ruby/RubyTeste/app/assets/javascript
+  /home/gustavo/Desktop/teste ruby/RubyTeste/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.2.2/gems/stimulus-rails-1.3.0/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/turbo-rails-1.5.0/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/importmap-rails-1.2.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/actiontext-7.1.2/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/actiontext-7.1.2/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.2.2/gems/actioncable-7.1.2/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/activestorage-7.1.2/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/actionview-7.1.2/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/actionview-7.1.2/lib/assets/compiled
+  /home/gustavo/Desktop/teste ruby/RubyTeste/app/javascript
+  /home/gustavo/Desktop/teste ruby/RubyTeste/vendor/javascript):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-12-22 11:21:23 -0300
+Processing by WellcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/_menu.html.erb (Duration: 0.2ms | Allocations: 55)
+  Rendered wellcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 157)
+  Rendered layout layouts/application.html.erb (Duration: 72.4ms | Allocations: 39021)
+Completed 200 OK in 74ms (Views: 73.1ms | ActiveRecord: 0.0ms | Allocations: 39425)
+
+
+Started GET "/" for ::1 at 2023-12-22 11:22:28 -0300
+Processing by WellcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/_menu.html.erb (Duration: 0.2ms | Allocations: 55)
+  Rendered wellcome/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 157)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3707)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 4046)
+
+
+  
+ActionView::Template::Error (couldn't find file 'bootstrap/dist/css/bootstrap' with type 'text/css'
+Checked in these paths: 
+  /home/gustavo/Desktop/teste ruby/RubyTeste/app/assets/config
+  /home/gustavo/Desktop/teste ruby/RubyTeste/app/assets/images
+  /home/gustavo/Desktop/teste ruby/RubyTeste/app/assets/javascript
+  /home/gustavo/Desktop/teste ruby/RubyTeste/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.2.2/gems/stimulus-rails-1.3.0/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/turbo-rails-1.5.0/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/importmap-rails-1.2.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/actiontext-7.1.2/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/actiontext-7.1.2/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.2.2/gems/actioncable-7.1.2/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/activestorage-7.1.2/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/actionview-7.1.2/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/actionview-7.1.2/lib/assets/compiled
+  /home/gustavo/Desktop/teste ruby/RubyTeste/app/javascript
+  /home/gustavo/Desktop/teste ruby/RubyTeste/vendor/javascript):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-12-22 11:23:51 -0300
+Processing by WellcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/_menu.html.erb (Duration: 0.2ms | Allocations: 55)
+  Rendered wellcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 157)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 3646)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 3985)
+
+
+  
+ActionView::Template::Error (couldn't find file 'bootstrap/dist/css/bootstrap' with type 'text/css'
+Checked in these paths: 
+  /home/gustavo/Desktop/teste ruby/RubyTeste/app/assets/config
+  /home/gustavo/Desktop/teste ruby/RubyTeste/app/assets/images
+  /home/gustavo/Desktop/teste ruby/RubyTeste/app/assets/javascript
+  /home/gustavo/Desktop/teste ruby/RubyTeste/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.2.2/gems/stimulus-rails-1.3.0/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/turbo-rails-1.5.0/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/importmap-rails-1.2.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/actiontext-7.1.2/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/actiontext-7.1.2/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.2.2/gems/actioncable-7.1.2/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/activestorage-7.1.2/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/actionview-7.1.2/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/actionview-7.1.2/lib/assets/compiled
+  /home/gustavo/Desktop/teste ruby/RubyTeste/app/javascript
+  /home/gustavo/Desktop/teste ruby/RubyTeste/vendor/javascript):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-12-22 11:25:24 -0300
+Processing by WellcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/_menu.html.erb (Duration: 0.2ms | Allocations: 55)
+  Rendered wellcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 157)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 3592)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 3931)
+
+
+  
+ActionView::Template::Error (couldn't find file 'bootstrap/dist/css/bootstrap' with type 'text/css'
+Checked in these paths: 
+  /home/gustavo/Desktop/teste ruby/RubyTeste/app/assets/config
+  /home/gustavo/Desktop/teste ruby/RubyTeste/app/assets/images
+  /home/gustavo/Desktop/teste ruby/RubyTeste/app/assets/javascript
+  /home/gustavo/Desktop/teste ruby/RubyTeste/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.2.2/gems/stimulus-rails-1.3.0/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/turbo-rails-1.5.0/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/importmap-rails-1.2.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/actiontext-7.1.2/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/actiontext-7.1.2/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.2.2/gems/actioncable-7.1.2/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/activestorage-7.1.2/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/actionview-7.1.2/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/actionview-7.1.2/lib/assets/compiled
+  /home/gustavo/Desktop/teste ruby/RubyTeste/app/javascript
+  /home/gustavo/Desktop/teste ruby/RubyTeste/vendor/javascript):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-12-22 11:26:45 -0300
+Processing by WellcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/_menu.html.erb (Duration: 0.1ms | Allocations: 55)
+  Rendered wellcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 157)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 3706)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 4041)
+
+
+  
+ActionView::Template::Error (couldn't find file 'node_modules/bootstrap/dist/css/bootstrap' with type 'text/css'
+Checked in these paths: 
+  /home/gustavo/Desktop/teste ruby/RubyTeste/app/assets/config
+  /home/gustavo/Desktop/teste ruby/RubyTeste/app/assets/images
+  /home/gustavo/Desktop/teste ruby/RubyTeste/app/assets/javascript
+  /home/gustavo/Desktop/teste ruby/RubyTeste/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.2.2/gems/stimulus-rails-1.3.0/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/turbo-rails-1.5.0/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/importmap-rails-1.2.3/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/actiontext-7.1.2/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/actiontext-7.1.2/app/assets/stylesheets
+  /usr/share/rvm/gems/ruby-3.2.2/gems/actioncable-7.1.2/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/activestorage-7.1.2/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/actionview-7.1.2/app/assets/javascripts
+  /usr/share/rvm/gems/ruby-3.2.2/gems/actionview-7.1.2/lib/assets/compiled
+  /home/gustavo/Desktop/teste ruby/RubyTeste/app/javascript
+  /home/gustavo/Desktop/teste ruby/RubyTeste/vendor/javascript):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-12-22 11:27:25 -0300
+Processing by WellcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/_menu.html.erb (Duration: 0.2ms | Allocations: 55)
+  Rendered wellcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 157)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2703)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 3057)
+
+
