@@ -7044,3 +7044,14 @@ Processing by WellcomeController#index as HTML
 Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 3913)
 
 
+Started GET "/" for ::1 at 2023-12-22 10:49:32 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WellcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering wellcome/index.html.erb within layouts/application
+  Rendered wellcome/_menu.html.erb (Duration: 0.7ms | Allocations: 329)
+  Rendered wellcome/index.html.erb within layouts/application (Duration: 397.1ms | Allocations: 159300)
+  Rendered layout layouts/application.html.erb (Duration: 686.7ms | Allocations: 278680)
+Completed 200 OK in 698ms (Views: 690.0ms | ActiveRecord: 0.0ms | Allocations: 282278)
+
+
