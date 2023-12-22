@@ -1,0 +1,11 @@
+{
+  "name": "RubyTeste",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:GustavoBehnck/RubyTeste.git",
+  "author": "GustavoBehnckCardoso <gustavo.cardoso@flipfloplab.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}
